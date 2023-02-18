@@ -195,7 +195,7 @@
         },
         {
           "name": "Robots Docked",
-          "type": "checkbox",
+          "type": "spinbox",
           "max": 3
         },
         {
