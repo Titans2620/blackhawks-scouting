@@ -1,12 +1,19 @@
 {
   "heading": "Charged Up - 2023",
   "logo": "2620_Logo.png",
+  "skipTeamSelection": true,
   "pages": [
     {
       "name": "Setup+Autonomous",
       "widgets": [
         {
           "name": "Scouter Name",
+          "type": "text",
+          "colspan": 2
+        },
+
+        {
+          "name": "Match Number",
           "type": "text",
           "colspan": 2
         },
@@ -188,7 +195,7 @@
         },
         {
           "name": "Robots Docked",
-          "type": "spinbox",
+          "type": "checkbox",
           "max": 3
         },
         {
