@@ -9,19 +9,31 @@
         {
           "name": "Scouter Name",
           "type": "text",
-          "colspan": 2
+          "colspan": 2,
+          "validation": {
+            "comparison": "greater",
+            "value": 0
+          }
         },
 
         {
           "name": "Match Number",
           "type": "text",
-          "colspan": 2
+          "colspan": 2,
+          "validation": {
+            "comparison": "greater",
+            "value": 0
+          }
         },
 
         {
           "name": "Team Number",
           "type": "text",
-          "colspan": 2
+          "colspan": 2,
+          "validation": {
+            "comparison": "greater",
+            "value": 0
+          }
         },
 
         {
